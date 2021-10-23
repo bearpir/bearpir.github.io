@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font: 12px tahoma;
+    color:#dadada ;
+    background-image:url(/uaznz/img/body_bg.gif);
+    background-color:#161616;
+    height: 100%;
+}
+.header{
+    width: 100%;
+    height: 150px;
+}
+h1{
+    padding: 50px 0 0 50px;
+}
+.logo{
+    color: #fff;
+    text-decoration: none;
+    transition: .5s ease;
+    font-size: 40px;
+}
+.logo:hover{
+    color: #dacb46;
+    transition: .5s ease;
+    
+}
+.navbar{
+    width: 100%;
+    height: 40px;
+    background-color: #353535;
+    border-top: 2px solid #dacb46;
+    padding-left: 200px;
+    transition: .5s;
+}
+.ul1 .li1{
+    display: initial;
+   
+}
+.ul1 .li1 .a1{
+    float: left;
+    display: block;
+    padding: 0 20px;
+    height: 38px;
+    line-height: 40px;
+    color: #fff;
+    text-decoration:none ;
+  
+}
+.ul1 .li1 .a1:hover{
+color: #dacb46;
+background: #292929;
+
+}
+#active{
+    background: #292929;
+}
+.navdowncolor{
+    width: 100%;
+    background: #292929;
+    height: 10px;
+}
+
+.lists{
+    background: #000000;
+    width: 300px;
+}
+.listsborder{
+    margin: 20px 0 0 100px;
+    border-top: 2px solid #dacb46;
+    width: 300px;
+}
+.listul{
+    margin-left: 20px;
+        list-style-image: url('/img/bullet.png');
+      
+}
+.lista{
+    color:#dacb46;
+    text-decoration: none;
+    transition: .3s ease;
+}
+.lista:hover{
+    color:#fafafa;
+    transition: .3s ease;
+}
+.spacebetween{
+    height: 5px;
+}
+.ig{
+    text-decoration: none;
+    color: #f59a13;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+} 
+  td, th {
+    border: 1px solid #dacb46;
+    text-align: left;
+    padding: 8px;
+  }
+  a{
+      color:#dacb46 ;
+      text-decoration: none;
+      transition: .2s ease;
+  }
+  a:hover{
+      color:#fafafa;
+      transition: .2s ease;
+  }
+  
+
+
+
+
+
+
+
+@media(max-width:422px){
+    .navbar{
+        width: 100%;
+        height: 76px;
+        background-color: #353535;
+    }
+    h1{
+        transition: .5s;
+        padding: 50px 0 0 10px;
+    }
+    .listsborder{
+        transition: .3s;
+        margin: 20px 0 0 4px;
+    }
+}
+@media(max-width:610px){
+    .navbar{
+        transition: .5s;
+        padding-left: 0px;}
+}
+
